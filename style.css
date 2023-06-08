@@ -1,0 +1,203 @@
+body{
+    background: url(https://img.freepik.com/premium-photo/road-surface-and-urban-architectural-landscape-skyline_1417-7167.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.box {
+    margin: 170px auto;
+    position: relative;
+    
+}
+.div-logo{
+    
+}
+.logo{
+    margin: 0px 550px;
+    cursor: pointer;
+    animation: logo 4s linear;
+}
+@keyframes logo{
+    0%{
+        transform: translateX(-1200px);
+    }
+    100%{
+        transform: translateX(00px);
+    }
+}
+.text-holli {
+    position: absolute;
+    right: 565px;
+    top: 165px;
+    z-index: 1;
+    font-size: 11px;
+    font-weight: 900;
+    opacity: 0;
+}
+.coment-holi {
+    position: absolute;
+    right: 560px;
+    top: 140px;
+    opacity: 0;
+}
+.holli {
+    position: absolute;
+    right: 100px;
+    top: 240px;
+    transform: translateX(800px);
+    transition: 5.9s;
+}
+.div-logo:hover .holli{
+    transform: translateX(-330px);
+}
+.div-logo:active .coment-holi{
+    opacity: 1;
+}
+.div-logo:active .text-holli{
+    opacity: 1;
+}
+.metr{
+    position: absolute;
+    bottom: -30px;
+    
+    transform: translateX(-800px);
+    transition: 5.9s;
+}
+.div-mak-2:hover .metr{
+    transform: translateX(650px);
+}
+.div-mak-2:active .coment-metr{
+    opacity: 1;
+}
+.div-mak-2:active .text-metr{
+    opacity: 1;
+}
+.text-metr {
+    position: absolute;
+    right: 488px;
+    bottom: 123px;
+    font-size: 14px;
+    z-index: 1;
+    opacity: 0;
+    font-size: 11px;
+    font-weight: 900;
+}
+.coment-metr {
+    position: absolute;
+    right: 470px;
+    bottom: 50px;
+    opacity: 0;
+}
+
+.makwin{
+    position: relative;
+}
+.mak-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    animation: mak-1 3s linear;
+}
+
+@keyframes mak-1{
+    0%{
+        transform: translateX(-800px);
+    }
+    100%{
+        transform: translateX(00px);
+    }
+}
+.mak-2 {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    cursor: pointer;
+    animation: mak_2 3s linear alternate infinite;
+}
+.div-mak-2{
+    position: relative;
+    animation: mak-2 3s linear
+}
+@keyframes mak-2{
+    0%{
+        transform: translatey(-800px);
+        
+    }
+    100%{
+        transform: translatey(00px);
+    }
+}
+@keyframes mak_2{
+    0%{
+        transform: scale(0.9);
+        
+    }
+    50%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.mak-3{
+    position: absolute;
+    right: 50px;
+    animation: mak-3 3s linear;
+}
+
+@keyframes mak-3{
+    0%{
+        transform: translateX(800px);
+    }
+    100%{
+        transform: translateX(00px);
+    }
+}
+.comen-1:hover .coment-1 {
+    opacity: 1;
+}
+.comen-1:hover .text-com-1{
+    opacity: 1;
+}
+.comen-1{
+    position: relative;
+    
+    
+}
+.text-com-1{
+    position: absolute;
+    left: 470px;
+    top: 20px;
+    z-index: 1;
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+.coment-1{
+    position: absolute;
+    left: 420px;
+    opacity: 0;
+}
+.comen-2{
+    position: relative;
+}
+.comen-2:hover .coment-3{
+    opacity: 1;
+}
+.comen-2:hover .text-com-3{
+    opacity: 1;
+}
+.text-com-3{
+    position: absolute;
+    right: 470px;
+    top: 10px;
+    z-index: 1;
+    opacity: 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+.coment-3{
+    position: absolute;
+    right: 450px;
+    top: 0px;
+    opacity: 0;
+}
